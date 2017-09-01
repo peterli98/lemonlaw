@@ -1,0 +1,104 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
+*:focus{
+	outline: none;
+}
+
+/*over all styling of the html file*/
+
+ul{
+  list-style-type: none;
+  margin: auto;
+}
+
+ul li{
+  font-size: 140%;
+  color: white;
+  text-align: left;
+  letter-spacing: 1px;
+  font-family: 'VT323', monospace;
+}
+
+.home{
+  position: absolute;;
+  margin: auto;
+  top: 0;
+  right: 89%;
+  bottom: 85%;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.home i{
+  font-size:175%;
+	color: white;
+}
+
+.home i:hover{
+  color: #4CAF50;
+}
+
+.section{
+	display: flex;
+	justify-content: space-around;
+}
+
+.mh{
+  text-decoration:underline;
+  color: white;
+  font-size: 450%;
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  -webkit-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+
+.ph{
+  text-decoration:underline;
+  color: white;
+  font-size: 450%;
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  -webkit-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+
+.ah{
+  text-decoration:underline;
+  color: white;
+  font-size: 450%;
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  -webkit-transition-duration: 1.5s;
+  transition-duration: 1.5s;
+}
+
+.mh:hover{
+  color: #6ad0ff;
+}
+
+.ph:hover{
+  color: #000000;
+}
+
+.ah:hover{
+  color: #6ad0ff;
+}
+
+.matthew{
+  width: 400px;
+  height: 400px;
+}
+
+.peter{
+  width: 400px;
+  height: 400px;
+}
+
+.alvin{
+  width: 400px;
+  height: 400px;
+}

@@ -1,0 +1,106 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+*:focus{
+	outline: none;
+}
+
+ul{
+  list-style-type: none;
+  margin: auto;
+}
+
+img{
+  height: auto;
+  width: 100%;
+}
+
+/*style of the footer, about us and contact us*/
+
+.footer{
+	background-color: #A8CD1B;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+	width: 100%;
+}
+
+
+.bottom-banner li{
+  text-align: center;
+  margin:1%;
+	padding:5% 5% 1% 25%;
+  display: inline;
+  font-size: 150%;
+  font-family: 'VT323', monospace;
+  color: white;
+}
+
+#about{
+  background-color: #A8CD1B;
+  font-family: 'VT323', monospace;
+  font-size: 140%;
+  color: white;
+  border: none;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+  transition-delay: initial;
+  transform-style: preserve-3d;
+}
+
+#about:after{
+  top: -100%;
+	left: 0px;
+	width: 100%;
+	position: absolute;
+	background: #4CAF50;
+	border-radius: 5px;
+	content: 'Us';
+	transform-origin: left bottom;
+	transform: rotateX(90deg);
+}
+
+#about:hover{
+  transform-origin: center bottom;
+	transform: rotateX(-90deg) translateY(100%);
+}
+
+#contact{
+  background-color: #A8CD1B;
+  font-family: 'VT323', monospace;
+  font-size: 140%;
+  color: white;
+  border: none;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+  transition-delay: initial;
+  transform-style: preserve-3d;
+}
+
+#contact:after{
+  top: -100%;
+	left: 0px;
+	width: 100%;
+	position: absolute;
+	background: #4CAF50;
+	border-radius: 5px;
+	content: 'Us';
+	transform-origin: left bottom;
+	transform: rotateX(90deg);
+}
+
+#contact:hover{
+  transform-origin: center bottom;
+	transform: rotateX(-90deg) translateY(100%);
+}
